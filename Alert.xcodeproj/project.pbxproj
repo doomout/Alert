@@ -13,6 +13,9 @@
 		ADA15D292951E1AD000CB814 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADA15D272951E1AD000CB814 /* Main.storyboard */; };
 		ADA15D2B2951E1AE000CB814 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADA15D2A2951E1AE000CB814 /* Assets.xcassets */; };
 		ADA15D2E2951E1AE000CB814 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADA15D2C2951E1AE000CB814 /* LaunchScreen.storyboard */; };
+		ADA15D3E295224A3000CB814 /* lamp-remove.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA15D3B295224A3000CB814 /* lamp-remove.png */; };
+		ADA15D3F295224A3000CB814 /* lamp-on.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA15D3C295224A3000CB814 /* lamp-on.png */; };
+		ADA15D40295224A3000CB814 /* lamp-off.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA15D3D295224A3000CB814 /* lamp-off.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +27,9 @@
 		ADA15D2A2951E1AE000CB814 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADA15D2D2951E1AE000CB814 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADA15D2F2951E1AE000CB814 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ADA15D3B295224A3000CB814 /* lamp-remove.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lamp-remove.png"; sourceTree = "<group>"; };
+		ADA15D3C295224A3000CB814 /* lamp-on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lamp-on.png"; sourceTree = "<group>"; };
+		ADA15D3D295224A3000CB814 /* lamp-off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lamp-off.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +69,9 @@
 				ADA15D2A2951E1AE000CB814 /* Assets.xcassets */,
 				ADA15D2C2951E1AE000CB814 /* LaunchScreen.storyboard */,
 				ADA15D2F2951E1AE000CB814 /* Info.plist */,
+				ADA15D3D295224A3000CB814 /* lamp-off.png */,
+				ADA15D3C295224A3000CB814 /* lamp-on.png */,
+				ADA15D3B295224A3000CB814 /* lamp-remove.png */,
 			);
 			path = Alert;
 			sourceTree = "<group>";
@@ -126,8 +135,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADA15D2E2951E1AE000CB814 /* LaunchScreen.storyboard in Resources */,
+				ADA15D40295224A3000CB814 /* lamp-off.png in Resources */,
 				ADA15D2B2951E1AE000CB814 /* Assets.xcassets in Resources */,
 				ADA15D292951E1AD000CB814 /* Main.storyboard in Resources */,
+				ADA15D3E295224A3000CB814 /* lamp-remove.png in Resources */,
+				ADA15D3F295224A3000CB814 /* lamp-on.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
